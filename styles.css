@@ -22,13 +22,15 @@ html {
     font-size: 62.5%;
 }
 body {
-    min-width: 1100px;
+    min-width: 1000px;
     width: 100%;
     min-height: 450px;
     height: 100vh;
     display: grid;
     grid-template: repeat(20, 1fr) / repeat(20, 1fr);
     background-image: linear-gradient(to left bottom, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
+    background-position: center;
+    background-size: cover;
 }
 
 .item-1 {
@@ -103,6 +105,7 @@ body {
     grid-column: 3 / 13;
     grid-row: 1 / 21;
     overflow: visible;
+    z-index: 1;
 }
 .box-3 img {
     min-height: 450px;
