@@ -159,6 +159,7 @@ body {
     body {
         width: 770px;
         grid-template-columns: repeat(14, 1fr);
+        overflow: hidden;
     }
     .item-1 {
         grid-column: 1 / 3;
