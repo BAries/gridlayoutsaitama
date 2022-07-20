@@ -157,7 +157,7 @@ body {
 }
 @media (max-width: 770px) {
     body {
-        min-width: 650px;
+        width: 770px;
         grid-template-columns: repeat(14, 1fr);
     }
     .item-1 {
